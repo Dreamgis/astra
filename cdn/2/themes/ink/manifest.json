@@ -1,27 +1,27 @@
 {
-  "name": "dark",
-  "label": "Dark",
+  "name": "ink",
+  "label": "Ink",
   "type": "theme",
   "thumbnails ": [],
   "colors": {
-    "primary": "#315dfc",
-    "secondary": "#00c3cc",
-    "success": "#00cca5",
+    "primary": "#484848",
+    "secondary": "#fff",
     "info": "#09acf8",
+    "success": "#00cca5",
     "warning": "#ffab21",
     "danger": "#f6146f",
-    "light": "#2d3235",
-    "dark": "#fafbfc"
+    "light": "#fff",
+    "dark": "#484848"
   },
   "font": {
-    "fontFamily": "sans-serif",
-    "fontWeight": 500,
-    "color": "#fff"
+    "fontFamily": "Avenir Next",
+    "color": "#484848",
+    "fontWeight": 500
   },
   "version": "1.12.0",
   "exbVersion": "1.12.0",
   "author": "Esri R&D Center Beijing",
-  "description": "This is a dark theme.",
+  "description": "This is the Ink theme, which provides a minimal gray scale look-and-feel.",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "translatedLocales": [
@@ -68,6 +68,6 @@
   ],
   "styleFiles": {
     "css": false,
-    "js": true
+    "js": false
   }
 }
