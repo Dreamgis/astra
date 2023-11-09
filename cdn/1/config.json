@@ -65,7 +65,7 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "width": 65.62
+            "width": 56.93000000000001
           },
           "parent": "2",
           "gridType": 3,
@@ -85,7 +85,7 @@
           "sectionId": "section_1",
           "type": "SECTION",
           "bbox": {
-            "width": 34.379999999999995
+            "width": 43.06999999999999
           },
           "gridType": 3,
           "parent": "2"
@@ -211,19 +211,19 @@
           "type": "WIDGET",
           "bbox": {
             "left": "1.6%",
-            "right": "82.9%",
-            "top": "64.1%",
-            "bottom": "4.2%",
-            "width": "15.5%",
-            "height": "31.7%"
+            "right": "71.4%",
+            "top": "22.0%",
+            "bottom": "43.1%",
+            "width": "27.0%",
+            "height": "34.9%"
           },
           "widgetId": "widget_23",
           "setting": {
             "autoProps": {
               "left": false,
               "right": true,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             },
             "lockParent": true,
             "effect": {
@@ -388,10 +388,10 @@
           "bbox": {
             "left": "0px",
             "top": "50%",
-            "width": "352px",
-            "height": "100.00%",
+            "width": "203px",
+            "height": "100.0%",
             "right": "24px",
-            "bottom": "0.00%"
+            "bottom": "0.0%"
           },
           "widgetId": "widget_22",
           "setting": {
@@ -489,7 +489,7 @@
           },
           "children": [
             "30",
-            "28"
+            "45"
           ]
         },
         "20": {
@@ -513,11 +513,11 @@
         "23": {
           "type": "WIDGET",
           "bbox": {
-            "width": 50
+            "width": 49.57
           },
           "widgetId": "widget_45",
           "gridType": 3,
-          "parent": "40"
+          "parent": "38"
         },
         "24": {
           "gridType": 0,
@@ -528,27 +528,6 @@
           "children": [
             "20",
             "7"
-          ]
-        },
-        "27": {
-          "gridType": 3,
-          "type": "WIDGET",
-          "parent": "28",
-          "bbox": {
-            "width": 36.160000000000004
-          },
-          "widgetId": "widget_37"
-        },
-        "28": {
-          "gridType": 1,
-          "parent": "17",
-          "bbox": {
-            "width": 50
-          },
-          "children": [
-            "35",
-            "27",
-            "36"
           ]
         },
         "29": {
@@ -569,51 +548,15 @@
           "children": [
             "29",
             "37",
-            "34"
+            "43"
           ]
-        },
-        "31": {
-          "gridType": 3,
-          "type": "WIDGET",
-          "bbox": {
-            "width": 50
-          },
-          "widgetId": "widget_46",
-          "parent": "40"
-        },
-        "34": {
-          "gridType": 3,
-          "type": "WIDGET",
-          "parent": "30",
-          "bbox": {
-            "width": 26.995000000000005
-          },
-          "widgetId": "widget_44"
-        },
-        "35": {
-          "type": "WIDGET",
-          "bbox": {
-            "width": 36.66
-          },
-          "widgetId": "widget_61",
-          "gridType": 3,
-          "parent": "28"
-        },
-        "36": {
-          "gridType": 3,
-          "type": "WIDGET",
-          "parent": "28",
-          "bbox": {
-            "width": 27.18
-          },
-          "widgetId": "widget_41"
         },
         "37": {
           "gridType": 3,
           "type": "WIDGET",
           "parent": "30",
           "bbox": {
-            "width": 35.955
+            "width": 31.475
           },
           "widgetId": "widget_63"
         },
@@ -625,7 +568,7 @@
           },
           "children": [
             "39",
-            "40"
+            "23"
           ]
         },
         "39": {
@@ -637,16 +580,53 @@
           "gridType": 3,
           "parent": "38"
         },
-        "40": {
-          "gridType": 1,
-          "parent": "38",
+        "43": {
+          "gridType": 3,
+          "type": "WIDGET",
+          "parent": "30",
           "bbox": {
-            "width": 49.57
+            "width": 31.475
+          },
+          "widgetId": "widget_44"
+        },
+        "44": {
+          "gridType": 3,
+          "type": "WIDGET",
+          "parent": "45",
+          "bbox": {
+            "width": 31.18
+          },
+          "widgetId": "widget_41"
+        },
+        "45": {
+          "gridType": 1,
+          "parent": "17",
+          "bbox": {
+            "width": 50
           },
           "children": [
-            "23",
-            "31"
+            "46",
+            "47",
+            "44"
           ]
+        },
+        "46": {
+          "gridType": 3,
+          "type": "WIDGET",
+          "parent": "45",
+          "bbox": {
+            "width": 36.56999999999999
+          },
+          "widgetId": "widget_61"
+        },
+        "47": {
+          "gridType": 3,
+          "type": "WIDGET",
+          "parent": "45",
+          "bbox": {
+            "width": 32.25
+          },
+          "widgetId": "widget_37"
         }
       },
       "setting": {
@@ -832,37 +812,11 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": 1,
-            "width": 10,
+            "left": 3,
+            "width": null,
             "height": "61px"
           },
           "widgetId": "widget_29",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          }
-        }
-      }
-    },
-    "layout_31": {
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0px",
-            "width": "12px",
-            "height": "61px"
-          },
-          "widgetId": "widget_38",
           "setting": {
             "autoProps": {
               "height": "AUTO"
@@ -1194,8 +1148,8 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": 0,
-            "width": 12,
+            "left": 4,
+            "width": null,
             "height": "61px"
           },
           "widgetId": "widget_66",
@@ -1245,7 +1199,7 @@
         "direction": "HORIZONTAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "246px",
+        "size": "251px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1326,15 +1280,19 @@
     "widget_5": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.12.0",
-      "label": "Map",
+      "label": "Mapa Riesgo",
       "config": {
         "toolConfig": {
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
-          "canNavigation": true
+          "canNavigation": true,
+          "canLayers": true,
+          "canLocate": false
         },
-        "isUseCustomMapState": false
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": null
       },
       "id": "widget_5",
       "layouts": {
@@ -1344,8 +1302,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
         }
       ]
     },
@@ -1388,11 +1346,11 @@
             },
             "name": "Departamento",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4",
               "fields": [
-                "DPTO_CNMBR"
+                "nombre_depto"
               ]
             },
             "sqlExprObj": {
@@ -1400,7 +1358,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "DPTO_CNMBR",
+                  "jimuFieldName": "nombre_depto",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -1430,11 +1388,11 @@
       "id": "widget_7",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "DPTO_CNMBR"
+            "nombre_depto"
           ]
         }
       ]
@@ -1442,7 +1400,7 @@
     "widget_8": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row",
+      "label": "Departamento",
       "config": {
         "space": 10,
         "style": {
@@ -1498,7 +1456,7 @@
     "widget_11": {
       "uri": "widgets/common/list/",
       "version": "1.12.0",
-      "label": "List",
+      "label": "Municipios",
       "config": {
         "maxItems": 100,
         "space": 2,
@@ -1674,14 +1632,18 @@
             "widget_5": {
               "enabled": true
             }
-          }
+          },
+          "enabled": false
+        },
+        "panTo": {
+          "enabled": false
         }
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": []
         }
       ],
@@ -1692,8 +1654,7 @@
       "version": "1.12.0",
       "label": "Text 6",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800); font-size: 13px;\">﻿</span><exp data-uniqueid=\"d30f8c75_8deb_f95e_01f8_6c7e2c3267d4\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Municipio%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Municipio%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3%22%2C%22jimuFieldName%22%3A%22MPIO_CNMBR%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Nombre Municipio}</span>﻿</exp> </p>",
-        "placeholder": "<p><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet</span></p>",
+        "text": "<p><exp data-uniqueid=\"9b87dd4c_9e6e_fac5_aa80_82cd2616cbcb\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Municipio%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Municipio%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3%22%2C%22jimuFieldName%22%3A%22nombre_mpio%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Nombre Municipio}</span>﻿</exp> </p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -1704,9 +1665,12 @@
       "id": "widget_22",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "nombre_mpio"
+          ]
         }
       ],
       "useDataSourcesEnabled": true
@@ -1747,10 +1711,9 @@
     "widget_28": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 7",
+      "label": "Nombre municipio",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 30px;\"><exp data-uniqueid=\"136327fb_1e77_8bcd_af22_d23b66cf6b54\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Municipio%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Municipio%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22MPIO_CNMBR%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Nombre Municipio}﻿﻿﻿﻿</span>﻿</exp></span><span style=\"color: rgb(255, 237, 177); font-size: 16px;\">  </span></p><p style=\"text-align: center;\"><span style=\"font-size: 15px; color: var(--light);\"><exp data-uniqueid=\"b7094c7b_e597_de7e_90c6_2a5038c606f6\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Departamento%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Departamento%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22DPTO_CNMBR%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Nombre Departamento}﻿﻿﻿</span>﻿</exp></span> </p><p style=\"text-align: center;\"><span style=\"font-size: 18px; color: var(--warning-900);\"> </span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-family: inherit; font-size: 15px; color: var(--light); background-color: rgb(216, 216, 216);\">﻿</span><span style=\"font-family: inherit; font-size: 30px; color: var(--light); background-color: rgba(0, 0, 0, 0);\"><exp data-uniqueid=\"f31c5142_d898_0b97_4ce3_94a7526760a0\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Municipio%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Municipio%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22nombre_mpio%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Nombre Municipio}﻿﻿﻿</span>﻿</exp></span></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 20px;\"><exp data-uniqueid=\"4a5cd183_1c6e_3402_d635_19eb10896a15\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20Departamento%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20Departamento%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22nombre_depto%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Nombre Departamento}﻿﻿﻿</span>﻿</exp></span> </p><p style=\"text-align: center;\"><span style=\"font-size: 18px; color: var(--warning-900);\"> </span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -1759,12 +1722,12 @@
       "id": "widget_28",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "MPIO_CNMBR",
-            "DPTO_CNMBR"
+            "nombre_mpio",
+            "nombre_depto"
           ]
         }
       ],
@@ -1786,22 +1749,22 @@
       "version": "1.12.0",
       "label": "Text 8",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Precipitación mm/h</span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span><strong style=\"font-size: 30px; color: var(--info-600);\"><exp data-uniqueid=\"7379dd7e_9e22_1aa5_5183_5f9db7d8ce49\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BPrecipitaci%C3%B3n%20(mm%2Fh)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrecipitaci%C3%B3n%20(mm%2Fh)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22precipitacion__mm_h_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Precipitación (mm/h)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"font-size: 30px; color: var(--info-400);\">  </span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\">Precipitación (avg)</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\">   <exp data-uniqueid=\"e62d78ba_756f_ef0f_2e03_d72931fcac1c\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BPrecipitaci%C3%B3n%20(mm%2Fh)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrecipitaci%C3%B3n%20(mm%2Fh)%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22precipitacion%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Precipitación (mm/h)}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  mm/h</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\">Temperatura (avg)</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\"><exp data-uniqueid=\"defd003d_7bbe_1283_62f7_4f24ce0f7c61\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTemperatura%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTemperatura%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22temperatura%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Temperatura}﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;°C</strong></p>",
         "style": {
           "verticalAlign": "start",
-          "wrap": true
+          "wrap": false
         }
       },
       "id": "widget_29",
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "precipitacion__mm_h_"
+            "precipitacion",
+            "temperatura"
           ]
         }
       ]
@@ -1812,7 +1775,6 @@
       "label": "Text 9",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"letter-spacing: 0px; font-size: 20px; color: var(--light); background-color: rgba(0, 0, 0, 0);\">IPM: </strong></p><p style=\"text-align: center;\"><span style=\"letter-spacing: 0px; font-size: 30px; color: var(--light); background-color: rgba(0, 0, 0, 0);\"><exp data-uniqueid=\"52423218_e8d8_2b2f_3134_c27105696116\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22IPM%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Índice de Pobreza Multidimensional (IPM)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> /100</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1829,16 +1791,7 @@
       },
       "id": "widget_30",
       "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "IPM"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "style": {
         "background": {
           "color": null,
@@ -1849,7 +1802,7 @@
     "widget_35": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.12.0",
-      "label": "Map 2",
+      "label": "Mapa Overview",
       "config": {
         "toolConfig": {
           "canZoom": false,
@@ -1857,7 +1810,9 @@
           "canSearch": false,
           "canNavigation": false
         },
-        "isUseCustomMapState": false
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": null
       },
       "id": "widget_35",
       "layouts": {
@@ -1867,8 +1822,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
         }
       ],
       "style": {
@@ -1885,8 +1840,7 @@
       "version": "1.12.0",
       "label": "Text 10",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"color: var(--light); font-size: 30px;\"><exp data-uniqueid=\"c547a65a_210c_741b_664c_78f1f2e6729a\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BDensidad%20(Habs%2FKm2)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDensidad%20(Habs%2FKm2)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22densidad%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Densidad (Habs/Km2)}﻿﻿﻿﻿</span>﻿</exp></strong></p><p style=\"text-align: center;\"><strong style=\"color: var(--light); font-size: 30px;\">Bebes / Km2</strong></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--org-button-color); font-size: 20px;\"><exp data-uniqueid=\"53986586_fe0e_9e86_f43c_5f78c85e8e3b\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7BNi%C3%B1os%20%2F%20Km2%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNi%C3%B1os%20%2F%20Km2%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ninos_km2%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿AVERAGE({Niños / Km2})﻿</span>﻿</exp></span><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><strong style=\"color: var(--light); font-size: 20px;\">Bebes / Km2</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -1895,11 +1849,11 @@
       "id": "widget_36",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "densidad"
+            "ninos_km2"
           ]
         }
       ],
@@ -1923,7 +1877,7 @@
       "label": "Género",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "pie",
         "webChart": {
@@ -1935,13 +1889,13 @@
               "outStatistics": [
                 {
                   "statisticType": "sum",
-                  "onStatisticField": "G_Hombre",
-                  "outStatisticFieldName": "G_Hombre"
+                  "onStatisticField": "hombres",
+                  "outStatisticFieldName": "hombres"
                 },
                 {
                   "statisticType": "sum",
-                  "onStatisticField": "G_Mujer",
-                  "outStatisticFieldName": "G_Mujer"
+                  "onStatisticField": "mujeres",
+                  "outStatisticFieldName": "mujeres"
                 }
               ],
               "orderByFields": [
@@ -1957,14 +1911,14 @@
               "name": "Sum of Value",
               "x": "name",
               "y": "value",
-              "innerRadius": 30,
-              "startAngle": 20,
-              "endAngle": 380,
-              "displayNumericValueOnDataLabel": false,
-              "displayPercentageOnDataLabel": true,
+              "innerRadius": 20,
+              "startAngle": 8,
+              "endAngle": 368,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 10,
+              "dataLabelsOffset": 0,
               "sliceGrouping": {
                 "sliceId": "__other-slice__",
                 "percentageThreshold": 0,
@@ -2004,7 +1958,7 @@
                 "visible": true,
                 "content": {
                   "type": "esriTS",
-                  "color": "var(--dark-600)",
+                  "color": "var(--light)",
                   "font": {
                     "family": "Avenir Next",
                     "size": 10,
@@ -2018,11 +1972,11 @@
               },
               "slices": [
                 {
-                  "sliceId": "G_Hombre",
+                  "sliceId": "hombres",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#4151fa",
+                    "color": "var(--info-400)",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -2032,11 +1986,11 @@
                   }
                 },
                 {
-                  "sliceId": "G_Mujer",
+                  "sliceId": "mujeres",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#ffd335",
+                    "color": "var(--warning)",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -2048,13 +2002,13 @@
               ]
             }
           ],
-          "background": "var(--primary-100)",
+          "background": "#0e1d45",
           "title": {
             "type": "chartText",
             "visible": true,
             "content": {
               "type": "esriTS",
-              "color": "var(--black)",
+              "color": "var(--light)",
               "font": {
                 "family": "Avenir Next",
                 "size": 24,
@@ -2071,7 +2025,7 @@
             "visible": true,
             "content": {
               "type": "esriTS",
-              "color": "var(--dark-800)",
+              "color": "var(--light)",
               "font": {
                 "family": "Avenir Next",
                 "size": 14,
@@ -2091,7 +2045,7 @@
               "visible": true,
               "content": {
                 "type": "esriTS",
-                "color": "var(--dark-800)",
+                "color": "var(--light)",
                 "font": {
                   "family": "Avenir Next",
                   "size": 20,
@@ -2105,7 +2059,7 @@
             },
             "body": {
               "type": "esriTS",
-              "color": "var(--dark-800)",
+              "color": "var(--light)",
               "font": {
                 "family": "Avenir Next",
                 "size": 14,
@@ -2126,11 +2080,10 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
+          "fields": []
         }
       ],
       "style": {
@@ -2146,38 +2099,12 @@
       },
       "enableDataAction": false
     },
-    "widget_38": {
-      "uri": "widgets/common/text/",
-      "version": "1.12.0",
-      "label": "Text 11",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Temperatura °C</span></p><p style=\"text-align: center;\"><strong style=\"font-size: 30px; color: var(--warning-500);\"><exp data-uniqueid=\"b91f52ad_1265_7cce_cf7c_a80167331759\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTemperatura%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTemperatura%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22temperatura%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Temperatura}﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"font-size: 20px;\"> </span></p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_38",
-      "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "temperatura"
-          ]
-        }
-      ]
-    },
     "widget_40": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
       "label": "Text 12",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-size: 20px;\">POBLACIÓN INFANTIL</strong></p><p style=\"text-align: center;\"><strong style=\"color: var(--light); font-size: 30px;\"><exp data-uniqueid=\"fefdb8fa_3f0e_01f3_b704_1f597c1498bd\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BDensidad%20(Habs%2FKm2)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDensidad%20(Habs%2FKm2)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22densidad%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Densidad (Habs/Km2)}﻿</span>﻿</exp></strong>  </p><p style=\"text-align: center;\"><br></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-size: 20px;\">POBLACIÓN INFANTIL</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 20px;\"><exp data-uniqueid=\"7d734cec_28ba_3c94_49b5_49b4f3b7d475\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7BPoblaci%C3%B3n%20infantil%20%2F%20Km2%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPoblaci%C3%B3n%20infantil%20%2F%20Km2%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22infantil_km2%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿AVERAGE({Población infantil / Km2})﻿</span>﻿</exp></span><span style=\"font-size: 20px;\">     </span><strong style=\"font-size: 20px; color: var(--light);\">%</strong></p><p style=\"text-align: center;\"><br></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2187,11 +2114,11 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "densidad"
+            "infantil_km2"
           ]
         }
       ],
@@ -2205,7 +2132,7 @@
     "widget_41": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 3",
+      "label": "Bebes / Km2",
       "config": {
         "space": 10,
         "style": {
@@ -2295,7 +2222,7 @@
     "widget_44": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 6",
+      "label": "Población infantil",
       "config": {
         "space": 10,
         "style": {
@@ -2323,7 +2250,7 @@
     "widget_45": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 7",
+      "label": "Clima",
       "config": {
         "space": 10,
         "style": {
@@ -2343,35 +2270,7 @@
       },
       "style": {
         "background": {
-          "color": "var(--primary-100)",
-          "fillType": "fill"
-        }
-      }
-    },
-    "widget_46": {
-      "uri": "widgets/layout/row/",
-      "version": "1.12.0",
-      "label": "Row 8",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_46",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_31"
-        }
-      },
-      "style": {
-        "background": {
-          "color": "var(--primary-100)",
+          "color": "#02a9b6",
           "fillType": "fill"
         }
       }
@@ -2811,18 +2710,8 @@
         }
       },
       "id": "widget_55",
-      "outputDataSources": [
-        "widget_55_ouput"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
-        }
-      ]
+      "outputDataSources": [],
+      "useDataSources": []
     },
     "widget_56": {
       "uri": "widgets/common/chart/",
@@ -3058,18 +2947,8 @@
         }
       },
       "id": "widget_56",
-      "outputDataSources": [
-        "dataSource_3"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
-        }
-      ]
+      "outputDataSources": [],
+      "useDataSources": []
     },
     "widget_57": {
       "uri": "widgets/layout/fixed/",
@@ -3444,20 +3323,8 @@
         }
       },
       "id": "widget_58",
-      "outputDataSources": [
-        "widget_58_ouput"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "MPIO_CNMBR",
-            "riesgo"
-          ]
-        }
-      ]
+      "outputDataSources": [],
+      "useDataSources": []
     },
     "widget_59": {
       "uri": "widgets/layout/row/",
@@ -3492,22 +3359,21 @@
       "version": "1.12.0",
       "label": "Text 13",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 50px; color: var(--light-100);\"><exp data-uniqueid=\"f3d2e7ed_af00_8e84_03a9_cb4ab6546110\" data-dsid=\"dataSource_1-18b65442fb3-layer-4\" data-expression=\"%7B%22name%22%3A%22%7B(N%C3%BAmero%20de%20Atenciones)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B(N%C3%BAmero%20de%20Atenciones)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b65442fb3-layer-4-selection%22%2C%22jimuFieldName%22%3A%22F_N%C3%BAmero_de_Atenciones_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{(Número de Atenciones)}﻿﻿</span>﻿</exp></span><span style=\"font-size: 30px;\">  </span></p><p style=\"text-align: center;\"><span style=\"font-size: 25px; color: var(--light);\">ATENCIONES POR IRAB</span></p><p style=\"text-align: center;\"><span style=\"font-size: 15px; color: var(--light);\">INFECCIÓN RESPIRATORIA AGUDA</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--light); font-size: 20px;\"><exp data-uniqueid=\"223632ee_593e_48d1_ac60_cab20ec4fca1\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7BAtenciones%20por%20IRAB%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAtenciones%20por%20IRAB%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22atenciones%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿AVERAGE({Atenciones por IRAB})﻿</span>﻿</exp></strong><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">   </span></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 20px;\">ATENCIONES POR IRAB</span></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 20px;\">INFECCIÓN RESPIRATORIA AGUDA</span></p>",
         "style": {
           "verticalAlign": "start",
-          "wrap": true
+          "wrap": false
         }
       },
       "id": "widget_60",
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "mainDataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "F_Número_de_Atenciones_"
+            "atenciones"
           ]
         }
       ],
@@ -3521,7 +3387,7 @@
     "widget_61": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 11",
+      "label": "Riesgo",
       "config": {
         "space": 10,
         "style": {
@@ -3551,8 +3417,7 @@
       "version": "1.12.0",
       "label": "Text 14",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"color: rgb(246, 7, 101); font-size: 50px;\"><exp data-uniqueid=\"29b320c8_6a77_5477_f1e4_eb0c84863ae4\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BRiesgo%20Calculado%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRiesgo%20Calculado%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22riesgo%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿{Riesgo Calculado}﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"font-size: 30px;\">   </span><strong style=\"font-size: 50px; color: rgb(246, 7, 101);\">%</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 25px;\">RIESGO ALTO</span></p><p style=\"text-align: center;\"><span style=\"color: var(--light); font-size: 15px;\">PARA INFECCIÓN GRAVE POR VSR</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">  </span><strong style=\"color: var(--light); font-size: 20px;\"><exp data-uniqueid=\"d9c266e6_306a_1418_c72b_552cce3c026f\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7BRiesgo%20(Porcentaje)%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRiesgo%20(Porcentaje)%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22riesgo_porcentaje%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿AVERAGE({Riesgo (Porcentaje)})﻿</span>﻿</exp></strong><span style=\"font-size: 20px;\">    </span><strong style=\"font-size: 20px; color: var(--light);\">%</strong></p><p style=\"text-align: center;\"><span style=\"font-size: 20px; color: var(--light);\">RIESGOPARA INFECCIÓN GRAVE </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px; color: var(--light);\">POR VSR</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3562,11 +3427,11 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "riesgo"
+            "riesgo_porcentaje"
           ]
         }
       ],
@@ -3580,7 +3445,7 @@
     "widget_63": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 12",
+      "label": "Km2 y Habs",
       "config": {
         "space": 10,
         "style": {
@@ -3616,8 +3481,7 @@
       "version": "1.12.0",
       "label": "Text 15",
       "config": {
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 30px; color: var(--light);\"><exp data-uniqueid=\"5eb6e73f_c43c_3534_37d6_5e0b37f972a6\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7B%C3%81rea%20(Km2)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%C3%81rea%20(Km2)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22area_km2%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Área (Km2)}﻿﻿</span>﻿</exp></strong><span style=\"font-size: 30px; color: var(--light);\">&nbsp;</span><strong style=\"font-size: 30px; color: var(--light);\">Km2&nbsp; &nbsp;</strong> </p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 30px; color: var(--light);\"><exp data-uniqueid=\"ae9b3a95_7796_6c96_c971_7ee3504d59c2\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTotal%20de%20Poblaci%C3%B3n%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTotal%20de%20Poblaci%C3%B3n%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22TotalPob%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Total de Población}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;Habs&nbsp;&nbsp;</strong></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\"><exp data-uniqueid=\"fe252aa2_f579_5fdc_c297_31a4cf4315e8\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7B%C3%81rea%20(Km2)%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%C3%81rea%20(Km2)%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22area_km2%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿AVERAGE({Área (Km2)})﻿﻿</span>﻿</exp></strong><span style=\"font-size: 20px; color: var(--light);\">   &nbsp;Km2&nbsp; &nbsp;</span><span style=\"font-size: 20px;\"> </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light);\"><exp data-uniqueid=\"9d6e9779_219b_9e85_e096_124fea2e9afe\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7BPoblaci%C3%B3n%20total%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPoblaci%C3%B3n%20total%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22poblacion_total%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿AVERAGE({Población total})﻿</span>﻿</exp>   &nbsp;</strong><span style=\"font-size: 20px; color: var(--light);\">Habs&nbsp;&nbsp;</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -3626,12 +3490,12 @@
       "id": "widget_64",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
             "area_km2",
-            "TotalPob"
+            "poblacion_total"
           ]
         }
       ],
@@ -3652,7 +3516,7 @@
     "widget_65": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Row 13",
+      "label": "IPM",
       "config": {
         "space": 10,
         "style": {
@@ -3682,22 +3546,21 @@
       "version": "1.12.0",
       "label": "Text 16",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--light-100); font-size: 30px;\">IPM</strong></p><p style=\"text-align: center;\"><strong style=\"color: var(--light-100); font-size: 30px;\"><exp data-uniqueid=\"ee13f0ed_02e2_3b35_a2b2_da5f711b0259\" data-dsid=\"dataSource_1-18b29cf8f7b-layer-3\" data-expression=\"%7B%22name%22%3A%22%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b29cf8f7b-layer-3-selection%22%2C%22jimuFieldName%22%3A%22IPM%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Índice de Pobreza Multidimensional (IPM)}﻿﻿</span>﻿</exp> /100</strong></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light-100);\">IPM</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--light-100);\"><exp data-uniqueid=\"5306b343_c36e_a8cc_1f41_32faf5b4f9d7\" data-dsid=\"dataSource_4-18bb3f73f20-layer-3\" data-expression=\"%7B%22name%22%3A%22AVERAGE(%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%C3%8Dndice%20de%20Pobreza%20Multidimensional%20(IPM)%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-18bb3f73f20-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ipm%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿AVERAGE({Índice de Pobreza Multidimensional (IPM)})﻿﻿</span>﻿</exp>    /100</strong></p>",
         "style": {
           "verticalAlign": "start",
-          "wrap": true
+          "wrap": false
         }
       },
       "id": "widget_66",
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "IPM"
+            "ipm"
           ]
         }
       ]
@@ -3705,7 +3568,7 @@
     "widget_67": {
       "uri": "widgets/common/chart/",
       "version": "1.12.0",
-      "label": "Chart 6",
+      "label": "Picos respiratorios",
       "config": {
         "tools": {
           "cursorEnable": true
@@ -3718,17 +3581,17 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Mes"
+                "fecha"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "count",
-                  "onStatisticField": "OBJECTID",
-                  "outStatisticFieldName": "OBJECTID_count"
+                  "statisticType": "avg",
+                  "onStatisticField": "atenciones",
+                  "outStatisticFieldName": "atenciones_avg"
                 }
               ],
               "orderByFields": [
-                "Mes ASC"
+                "fecha ASC"
               ]
             }
           },
@@ -3736,10 +3599,10 @@
           "series": [
             {
               "type": "lineSeries",
-              "id": "OBJECTID",
-              "name": "OBJECTID",
-              "x": "Mes",
-              "y": "OBJECTID_count",
+              "id": "atenciones",
+              "name": "Atenciones por IRAB",
+              "x": "fecha",
+              "y": "atenciones_avg",
               "colorType": "singleColor",
               "stackedType": "sideBySide",
               "lineSymbol": {
@@ -3780,7 +3643,12 @@
                   "color": "var(--light-900)",
                   "width": 0
                 }
-              }
+              },
+              "timeIntervalSize": 1,
+              "timeIntervalUnits": "esriTimeUnitsMonths",
+              "timeAggregationType": "equalIntervalsFromStartTime",
+              "trimIncompleteTimeInterval": false,
+              "nullPolicy": "interpolate"
             }
           ],
           "axes": [
@@ -3823,8 +3691,8 @@
                 }
               },
               "valueFormat": {
-                "type": "category",
-                "characterLimit": 11
+                "type": "date",
+                "intlOptions": {}
               },
               "lineSymbol": {
                 "type": "esriSLS",
@@ -3900,13 +3768,13 @@
               }
             }
           ],
-          "background": "var(--secondary-100)",
+          "background": "var(--white)",
           "title": {
             "type": "chartText",
             "visible": true,
             "content": {
               "type": "esriTS",
-              "color": "var(--black)",
+              "color": "var(--info-700)",
               "font": {
                 "family": "Avenir Next",
                 "size": 24,
@@ -3915,12 +3783,12 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": ""
+              "text": "Picos respiratorios últimos 24 meses"
             }
           },
           "footer": {
             "type": "chartText",
-            "visible": true,
+            "visible": false,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -3978,12 +3846,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "mainDataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+          "mainDataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
-            "Mes",
-            "OBJECTID"
+            "fecha",
+            "atenciones"
           ]
         }
       ]
@@ -4038,165 +3906,62 @@
   },
   "dialogs": {},
   "dataSources": {
-    "dataSource_1": {
-      "id": "dataSource_1",
+    "dataSource_4": {
+      "id": "dataSource_4",
       "type": "WEB_MAP",
-      "sourceLabel": "Población y clima",
-      "itemId": "6e58855e2a134470afe85acd1a435ae5",
-      "portalUrl": "https://astra-co.maps.arcgis.com",
-      "childDataSourceJsons": {
-        "18b29cf8f7b-layer-3": {
-          "id": "dataSource_1-18b29cf8f7b-layer-3",
-          "sourceLabel": "Municipios",
-          "type": "FEATURE_LAYER",
-          "url": "https://services2.arcgis.com/cv6RvRYSPLEk5nGT/arcgis/rest/services/Poblacion_y_clima_v1/FeatureServer/1",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "c07262db19b247048cd5b5dfede0da2d",
-          "geometryType": "esriGeometryPolygon",
-          "query": {
-            "id": "default",
-            "label": "Municipios"
+      "sourceLabel": "Mapa Riesgo VSR Últimos 24 meses - Municipio",
+      "itemId": "95ca862ffbe44bf0a0d16706b947e48f",
+      "portalUrl": "https://astra-co.maps.arcgis.com"
+    },
+    "widget_67_ouput": {
+      "id": "widget_67_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Picos respiratorios statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+          "mainDataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+          "rootDataSourceId": "dataSource_4"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
           },
-          "dataViews": {
-            "no_selection": {
-              "id": "no_selection",
-              "label": "View for empty selection",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "MPIO_CCDGO",
-                    "operator": "STRING_OPERATOR_IS",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "USER_INPUT",
-                      "inputEditor": "TEXT_BOX",
-                      "value": [
-                        {
-                          "value": "25286",
-                          "label": "25286"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((MPIO_CCDGO = '25286'))",
-                "displaySQL": "(Código DANE Municipio = '25286')"
-              }
-            }
+          "fecha": {
+            "jimuName": "fecha",
+            "name": "fecha",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Fecha ",
+            "format": null,
+            "originFields": [
+              "fecha"
+            ]
           },
-          "disableExport": false
-        },
-        "18b29cf8f7c-layer-4": {
-          "id": "dataSource_1-18b29cf8f7c-layer-4",
-          "sourceLabel": "Atenciones",
-          "type": "FEATURE_LAYER",
-          "url": "https://services2.arcgis.com/cv6RvRYSPLEk5nGT/arcgis/rest/services/Poblacion_y_clima_v1/FeatureServer/0",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "c07262db19b247048cd5b5dfede0da2d",
-          "geometryType": "esriGeometryPoint"
-        },
-        "18b29cf8f7c-layer-5": {
-          "id": "dataSource_1-18b29cf8f7c-layer-5",
-          "sourceLabel": "ReporteRIPSCIE10",
-          "type": "FEATURE_LAYER",
-          "url": "https://services2.arcgis.com/cv6RvRYSPLEk5nGT/arcgis/rest/services/Poblacion_y_clima_v1/FeatureServer/3",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "c07262db19b247048cd5b5dfede0da2d",
-          "geometryType": null
-        },
-        "18b5d7f3297-layer-4": {
-          "id": "dataSource_1-18b5d7f3297-layer-4",
-          "sourceLabel": "Poblacion y clima v1 - ReporteRIPSCIE10",
-          "type": "FEATURE_LAYER",
-          "url": "https://services2.arcgis.com/cv6RvRYSPLEk5nGT/arcgis/rest/services/Poblacion_y_clima_v1/FeatureServer/2",
-          "geometryType": null,
-          "query": {
-            "id": "default",
-            "label": "Poblacion y clima v1 - ReporteRIPSCIE10"
-          },
-          "dataViews": {
-            "no_selection": {
-              "id": "no_selection",
-              "label": "View for empty selection",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "CODDANE",
-                    "operator": "STRING_OPERATOR_IS",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "USER_INPUT",
-                      "inputEditor": "TEXT_BOX",
-                      "value": [
-                        {
-                          "value": "11001",
-                          "label": "11001"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((CODDANE = '11001'))",
-                "displaySQL": "(CODDANE = '11001')"
-              },
-              "orderBy": []
-            }
-          }
-        },
-        "18b65442fb3-layer-4": {
-          "id": "dataSource_1-18b65442fb3-layer-4",
-          "sourceLabel": "ReporteCIE10",
-          "type": "FEATURE_LAYER",
-          "url": "https://services2.arcgis.com/cv6RvRYSPLEk5nGT/arcgis/rest/services/Poblacion_y_clima_v1/FeatureServer/3",
-          "geometryType": null,
-          "dataViews": {
-            "no_selection": {
-              "id": "no_selection",
-              "label": "View for empty selection",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "coddane",
-                    "operator": "STRING_OPERATOR_IS",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "USER_INPUT",
-                      "inputEditor": "TEXT_BOX",
-                      "value": [
-                        {
-                          "value": "25286",
-                          "label": "25286"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((coddane = '25286'))",
-                "displaySQL": "(coddane = '25286')"
-              }
-            }
+          "atenciones_avg": {
+            "jimuName": "atenciones_avg",
+            "name": "atenciones_avg",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "atenciones_avg",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "atenciones"
+            ]
           }
         }
-      },
-      "isHidden": false
+      }
     },
     "widget_37_ouput": {
       "id": "widget_37_ouput",
@@ -4204,11 +3969,9 @@
       "label": "Género statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
+          "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+          "rootDataSourceId": "dataSource_4"
         }
       ],
       "isOutputFromWidget": true,
@@ -4240,356 +4003,12 @@
               "digitSeparator": true,
               "places": 3
             }
-          }
-        }
-      }
-    },
-    "widget_55_ouput": {
-      "id": "widget_55_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Chart 3 statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "name": {
-            "jimuName": "name",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "name": "name",
-            "alias": "Name",
-            "format": null
-          },
-          "value": {
-            "jimuName": "value",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "value",
-            "alias": "Value",
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          }
-        }
-      }
-    },
-    "dataSource_3": {
-      "id": "dataSource_3",
-      "type": "FEATURE_LAYER",
-      "label": "Chart 4 statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3-selection",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [],
-          "dataViewId": "selection"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "name": {
-            "jimuName": "name",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "name": "name",
-            "alias": "Name",
-            "format": null
-          },
-          "value": {
-            "jimuName": "value",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "value",
-            "alias": "Value",
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          }
-        }
-      }
-    },
-    "widget_58_ouput": {
-      "id": "widget_58_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Chart 5 statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "MPIO_CNMBR": {
-            "jimuName": "MPIO_CNMBR",
-            "name": "MPIO_CNMBR",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Nombre Municipio",
-            "format": null,
-            "originFields": [
-              "MPIO_CNMBR"
-            ]
-          },
-          "riesgo": {
-            "jimuName": "riesgo",
-            "name": "riesgo",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "alias": "Riesgo Calculado",
-            "format": {
-              "digitSeparator": false,
-              "places": 2
-            },
-            "originFields": [
-              "riesgo"
-            ]
-          }
-        }
-      }
-    },
-    "widget_67_ouput": {
-      "id": "widget_67_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Chart 6 statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "mainDataSourceId": "dataSource_1-18b65442fb3-layer-4",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "Mes": {
-            "jimuName": "Mes",
-            "name": "Mes",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Mes",
-            "format": null,
-            "originFields": [
-              "Mes"
-            ]
-          },
-          "OBJECTID_count": {
-            "jimuName": "OBJECTID_count",
-            "name": "OBJECTID_count",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "OBJECTID_count",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "OBJECTID"
-            ]
           }
         }
       }
     }
   },
   "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "widgetId": "widget_7",
-      "messageType": "DATA_SOURCE_FILTER_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_5-panTo-1698072191535",
-          "widgetId": "widget_5",
-          "messageWidgetId": "widget_7",
-          "actionName": "panTo",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.12.0",
-          "useDataSources": []
-        },
-        {
-          "actionId": "widget_5-zoomToFeature-1698072195667",
-          "widgetId": "widget_5",
-          "messageWidgetId": "widget_7",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.12.0",
-          "useDataSources": []
-        }
-      ]
-    },
-    "messageConfig_2": {
-      "id": "messageConfig_2",
-      "widgetId": "widget_11",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_35-zoomToFeature-1698201144263",
-          "widgetId": "widget_35",
-          "messageWidgetId": "widget_11",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.12.0",
-          "useDataSources": []
-        },
-        {
-          "actionId": "widget_35-filter-1698201172059",
-          "widgetId": "widget_35",
-          "messageWidgetId": "widget_11",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.12.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1"
-            },
-            {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
-              "fields": []
-            }
-          ]
-        },
-        {
-          "actionId": "select-data-record-action-1698208052765",
-          "messageWidgetId": "widget_11",
-          "actionName": "select data record action",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "MPIO_CCDGO"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "widget_62_ouput-output",
-              "mainDataSourceId": "widget_62_ouput",
-              "dataViewId": "output"
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.12.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "MPIO_CCDGO"
-              ]
-            }
-          ]
-        }
-      ]
-    },
     "messageConfig_3": {
       "id": "messageConfig_3",
       "widgetId": "widget_58",
@@ -4622,24 +4041,7 @@
             "enabledDataRelationShip": true
           },
           "version": "1.12.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "widget_58_ouput",
-              "mainDataSourceId": "widget_58_ouput",
-              "rootDataSourceId": null,
-              "fields": [
-                "objectid"
-              ]
-            },
-            {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "OBJECTID"
-              ]
-            }
-          ]
+          "useDataSources": []
         },
         {
           "actionId": "widget_5-flash-1698214950455",
@@ -4668,24 +4070,136 @@
             "enabledDataRelationShip": true
           },
           "version": "1.12.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_7",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_5-panTo-1699532571116",
+          "widgetId": "widget_5",
+          "messageWidgetId": "widget_7",
+          "actionName": "panTo",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ]
+          },
+          "version": "1.12.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_5-zoomToFeature-1699533054750",
+          "widgetId": "widget_5",
+          "messageWidgetId": "widget_7",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ]
+          },
+          "version": "1.12.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_5": {
+      "id": "messageConfig_5",
+      "widgetId": "widget_11",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1699532828081",
+          "messageWidgetId": "widget_11",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4",
+              "fields": [
+                "coddane"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+              "mainDataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+              "rootDataSourceId": "dataSource_4",
+              "fields": [
+                "coddane"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.12.0",
           "useDataSources": [
             {
-              "dataSourceId": "widget_58_ouput",
-              "mainDataSourceId": "widget_58_ouput",
-              "rootDataSourceId": null,
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4",
               "fields": [
-                "objectid"
+                "coddane"
               ]
             },
             {
-              "dataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "mainDataSourceId": "dataSource_1-18b29cf8f7b-layer-3",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+              "mainDataSourceId": "dataSource_4-18bb3f73f23-layer-4",
+              "rootDataSourceId": "dataSource_4",
               "fields": [
-                "OBJECTID"
+                "coddane"
               ]
             }
           ]
+        },
+        {
+          "actionId": "widget_35-zoomToFeature-1699533254902",
+          "widgetId": "widget_35",
+          "messageWidgetId": "widget_11",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "mainDataSourceId": "dataSource_4-18bb3f73f20-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ]
+          },
+          "version": "1.12.0",
+          "useDataSources": []
         }
       ]
     }
@@ -4696,9 +4210,15 @@
       "page_0": []
     }
   ],
-  "timestamp": 1699021681121,
+  "timestamp": 1699538250256,
   "attributes": {
-    "portalUrl": "https://astra-co.maps.arcgis.com"
+    "portalUrl": "https://astra-co.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Riesgo por VSR en Colombia V1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {
